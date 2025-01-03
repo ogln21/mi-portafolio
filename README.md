@@ -10,7 +10,7 @@ Personal Portfolio Webpage
 https://ogln21.github.io/mi-portafolio/Personal_Portfolio_Webpage/
 
 Technical-documentation
-https://ogln21.github.io/mi-portafolio/Technical-documentation/
+https://ogln21.github.io/mi-portafolio/TechnicalDocumentation/
 
 Tribute_Page
 https://ogln21.github.io/mi-portafolio/Tribute_Page/
