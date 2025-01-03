@@ -6,8 +6,8 @@ Links:
 Landing page
 https://ogln21.github.io/mi-portafolio/Product_Landing_Page/
 
-Personal Portfolio Webpage
-https://ogln21.github.io/mi-portafolio/Personal_Portfolio_Webpage/
+<a href="https://ogln21.github.io/mi-portafolio/Personal_Portfolio_Webpage/">Personal Portfolio Webpage</a>
+
 
 Technical-documentation
 https://ogln21.github.io/mi-portafolio/TechnicalDocumentation/
