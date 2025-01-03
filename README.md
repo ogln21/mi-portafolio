@@ -3,14 +3,14 @@ En este repositorio guardare los proyectos que desarrolle en los cursos de freec
 
 Links:
 
-Landing page
-https://ogln21.github.io/mi-portafolio/Product_Landing_Page/
+<a href="https://ogln21.github.io/mi-portafolio/Product_Landing_Page/
+">Landing page</a>
 
 <a href="https://ogln21.github.io/mi-portafolio/Personal_Portfolio_Webpage/">Personal Portfolio Webpage</a>
 
 
-Technical-documentation
-https://ogln21.github.io/mi-portafolio/TechnicalDocumentation/
+<a href="https://ogln21.github.io/mi-portafolio/TechnicalDocumentation/
+">Technical-documentation</a>
 
-Tribute_Page
-https://ogln21.github.io/mi-portafolio/Tribute_Page/
+<a href="https://ogln21.github.io/mi-portafolio/Tribute_Page/
+">Tribute_Page</a>
