@@ -1,0 +1,240 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FL Studio Reference Manual</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <nav id="navbar">
+    <section>
+      <img class="center-image" id="image"
+        src="https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/img_glob/title24.png"
+        alt="title">
+    </section>
+    <header><strong>FL Studio Reference Manual</strong></header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+
+      <li><a class="nav-link" href="#Product_Information">Product Information
+        </a></li>
+
+      <li><a class="nav-link" href="#Whats_New?">What's New?
+        </a></li>
+
+      <li><a class="nav-link" href="#Making_music_(Tutorial)">Making music (Tutorial)
+        </a></li>
+
+      <li><a class="nav-link" href="#Hardware_controllers">Hardware controllers
+        </a></li>
+
+      <li><a class="nav-link" href="#Scripting_Reference">Scripting Reference
+        </a></li>
+
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <section id="Introduction" class="main-section">
+      <header><strong><ins>Introduction</ins></strong></header>
+
+      <p>FL Studio is a full-featured music production environment capable of multi-track audio recording, sequencing
+        and mixing for the creation of professional quality music tracks. With VST hosting, a flexible mixer and
+        advanced MIDI support no musical style will be beyond your reach. Songs or loops can be exported to .wav, .mp3,
+        .ogg, .flac or .mid format.
+      </p>
+
+      <h4>Why buy FL Studio?
+      </h4>
+      <ul>
+        <li>Lifetime FREE Updates - Buy FL Studio then get every future release of FL Studio for FREE. Register FL
+          Studio
+          from your online account.</li>
+      </ul>
+    </section>
+    <section id="Product_Information" class="main-section">
+      <header><strong><ins>Product Information</ins></strong></header>
+
+      <p>Powerful MIDI learning system - FL Studio remembers which controller you have used and what plugins or UI
+        targets it was linked to</p>
+
+      <p>Access to the Image-Line community - Includes user forums, content & project downloads, give-aways, exclusive
+        competitions and more.</p>
+
+      <p>Unlimited technical support.</p>
+
+    </section>
+    <section id="Whats_New?" class="main-section">
+      <header><strong><ins>What's New?</ins></strong></header>
+
+      <p>FL Studio owners enjoy LIFETIME FREE UPDATES, so always check for the latest release here online. For the
+        complete log (including bug-fixes) please check the WhatsNew Change Log. You can also view the <a
+          id="ytplaylist" href="https://www.youtube.com/playlist?list=PLkYsB0Ki9lAedrXe8uGaZGOGFRG5LjP4D">FL Studio
+          YouTube playlist.</a></p>
+
+      <ul>
+        <li>FL Cloud (Plugins) - FL Cloud Plugins are available free to all FL Studio customers. Subscribers get even
+          more though an ever expanding range of 3rd party and Image-Line Group VST plugins. NOTE: FL Cloud Plugins are
+          separate from those that come with the various FL Studio Editions.</li>
+      </ul>
+
+    </section>
+    <section id="Making_music_(Tutorial)" class="main-section">
+      <header><strong><ins>Making music (Tutorial)</ins></strong></header>
+
+      <p>This section covers the FL Studio desktop and basic workflow. FL Studio allows you to load instruments and
+        samples, play these live or manually enter the note data, record external sounds (from a microphone for example)
+        and play the whole mix back through the mixer (adding effects). The completed project can be saved to a .flp or
+        .zip and/or exported (rendered) to .wav, .mp3 or .ogg audio</p>
+
+    </section>
+    <section id="Hardware_controllers" class="main-section">
+      <header><strong><ins>Hardware controllers</ins></strong></header>
+
+      <p>While the FL Studio based musician generally has little or no need for extra hardware, it's definitely worth
+        considering a controller. Controllers are devices that send control signals to FL Studio to move the knobs,
+        switches or play a plugin instrument like a synthesizer. For setting up a controller see the MIDI Settings
+        Wizard or MIDI Settings page.</p>
+
+      <p>See <a id="hardwarecontrol" href="https://forum.image-line.com/viewtopic.php?f=1914&t=88824">here</a> for more
+        information on supported controllers.</p>
+
+      <p><strong>NOTES:</strong></p>
+      <ol>
+        <li>To <a id="interfacetoexternalcontrol"
+            href="https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/automation_linking.htm">link
+            the FL Studio interface</a> to an external controller, Right-Click the target knob/slider and select 'Link
+          controller' from the menu and then move the physical knob on the external controller interface.</li>
+
+        <li>FL Studio stores all note activity from external controllers from the past 3 minutes. This can be dumped to
+          the Piano roll at any time using the 'Dump score log to selected pattern' command. Never lose that perfect
+          improvisation again!</li>
+
+        <li>What to do if your <strong>Mod Wheel</strong> or <strong>Pitch</strong> Bend does not work - See the
+          Knowledge Base here.</li>
+
+      </ol>
+
+    </section>
+    <section id="Scripting_Reference" class="main-section">
+      <header><strong><ins>Scripting Reference</ins></strong></header>
+
+      <p>Piano roll scripts allow you to manipulate the note data in the Piano roll under the control of Python code.
+        For example, select all notes higher than C3 (MIDI note number 36).</p>
+
+      <h4>Script File Locations and File Names</h4>
+
+      <p>FL Studio will check the locations listed below and show any Scripts it finds in the Piano roll Scripts menu.
+        If you make or edit scripts put them in the User data 'Piano roll scripts' sub-folder. The user interfaces you
+        see associated with scripts are automatically created based on the variables and text entry fields in the
+        script.</p>
+
+      <ol>
+        <li><strong>Script file naming</strong> - Files must end with the .pyscript extension. E.g., Any text you like
+          here.pyscript</li>
+
+        <li><strong>User editable scripts</strong> - When creating your own scripts or editing ours, put them in the
+          User scripts folder:<br>
+          User scripts folder - ...Documents\Image-Line\FL Studio\Settings\Piano roll scripts. NOTE: You can use sub
+          folders to create category folders in the Piano roll script menu.</li>
+
+        <li><strong>Default installation folders</strong> - We don't recommend editing these scripts or editing the
+          contents of the folders. Rather copy any scripts you want to modify to your 'User scripts folder', add
+          'edited' to the name so you don't get confused. If you complain about bugs in factory scripts that you created
+          because you didn't follow this advice, our support staff will chastise you many times!</li>
+      </ol>
+
+      <p><strong>NOTE:</strong> Check the factory script folder for the file 'Piano roll script reference.txt'. This may
+        be more updated than this page in the manual.</p>
+
+      <div class="exscripts">
+        <h4>Example scripts:</h4>
+        <p>You do not need to install Python, FL Studio will interpret scripts itself. The script files are simply plain
+          text format with the extension .pyscript. For example 'Mute selected notes.pyscript' for the example
+          below.<br>
+          One of the best ways to learn scripting is to make a copy of a simple one, and make edits to it to learn how
+          it
+          works. For example, text messages on the script etc.</p>
+
+        <p><strong>Mute selected notes:</strong></p>
+        <code>
+          from flpianoroll import *
+
+          # loop through existing notes and set the "muted" flag
+          for i in range(score.noteCount):
+          score.getNote(i).muted = True
+        </code>
+
+        <p><strong>Script using the 'preview' feature:</strong></p>
+        <code>
+          from flpianoroll import *
+
+          def createDialog():
+          form = ScriptDialog('Add One Note', '')
+          form.AddInputKnob('Note Number', 36, 24, 48)
+          return form
+
+          def apply(form):
+          notenr = round(form.GetInputValue('Note Number'))
+          # ... do something here
+        </code>
+
+        <p><strong>Check if any key is pressed:</strong></p>
+        <code>
+          def OnMidiMsg(event):
+          event.handled = False
+          if event.data2 > 0:
+          print('Any Key Pressed')
+        </code>
+
+        <p><strong>Check if your specific key is pressed:</strong></p>
+        <code>
+          if event.data1 == play_key:
+          print('Play Key Pressed')
+        </code>
+
+        <p><strong>Duplicate Notes an Octave Higher:</strong></p>
+        <code>
+          def duplicate_notes_octave_up():
+          # Check if there are active channels
+          if channels.channelCount() == 0:
+          ui.showMessageBox("Error", "No active channels.")
+          return
+
+          # Get the list of selected notes
+          selected_notes = midi.getSelectedNotes()
+
+          # Exit if no notes are selected
+          if not selected_notes:
+          ui.showMessageBox("Info", "No notes selected.")
+          return
+
+          # Duplicate each selected note one octave higher
+          for note in selected_notes:
+          new_note = midi.MidiNote(
+          start=note.start,
+          length=note.length,
+          pitch=note.pitch + 12, # Increase pitch by 12 semitones (1 octave)
+          velocity=note.velocity,
+          channel=note.channel,
+          isSelected=False
+          )
+          midi.addNote(new_note)
+
+          ui.showMessageBox("Success", "Notes duplicated one octave higher.")
+
+          # Call the function
+          duplicate_notes_octave_up()
+        </code>
+      </div>
+    </section>
+
+  </main>
+</body>
+
+</html>
