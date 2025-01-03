@@ -10,7 +10,7 @@ Links:
 
 
 <a href="https://ogln21.github.io/mi-portafolio/TechnicalDocumentation/
-">Technical-documentation</a>
+">TechnicalDocumentation</a>
 
 <a href="https://ogln21.github.io/mi-portafolio/Tribute_Page/
 ">Tribute_Page</a>
