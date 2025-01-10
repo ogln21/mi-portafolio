@@ -5,61 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
-    <link rel=" stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="navbar">
-        <nav id="navbar">
-            <header><strong>Personal Portfolio</strong></header>
-            <ul>
-                <li><a class="nav-link" href="#welcome-section">Welcome</a></li>
-
-                <li><a class="nav-link" href="#projects">My Projects</a></li>
-
-            </ul>
-        </nav>
-    </div>
-
-    <main id="main-content">
-
-        <section id="welcome-section">
-            <h1>Welcome</h1>
-            <div id=whoiam>
-                <h3>Hi! I am Shard</h3>
-                <h4>a web developer</h4>
-                <p>Here you could find all the projects that ive been working on</p>
+    <div class="header">
+        <header id="header">
+            <div class="logo">
+                <img id="header-img"
+                    src="https://raw.githubusercontent.com/ogln21/mi-portafolio/refs/heads/main/LOGO%20blanco%20centrado.png"
+                    alt="logo" />
             </div>
-        </section>
-        <div class="project-tile">
-            <section id="projects">
-                <h1>My Projects</h1>
-                <div class="project-tile" id="project-list">
-                    <div>
-                        <a href=""></a>
-                    </div>
-                    <div>
-                        <a href=""></a>
-                    </div>
-                    <div>
-                        <a href=""></a>
-                    </div>
-                    <div>
-                        <a href=""></a>
-                    </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a class="nav-link" href="#welcome-section">Welcome</a></li>
+                    <li><a class="nav-link" href="#projects">My Projects</a></li>
+                </ul>
+            </nav>
+        </header>
 
+        <main id="main-content">
+
+            <section id="welcome-section">
+                <h1>Welcome</h1>
+                <div id="whoiam">
+                    <h3>Hi! I am <span class="highlightw">Shard</h3>
+                    <h4>a web developer</h4>
+                    <p>Here you could find all the projects that ive been working on</p>
                 </div>
             </section>
-        </div>
-    </main>
+            <section id="projects">
+                <div class="project-tile">
+                    <h1>My Projects</h1>
+                    <div id="project-list">
+                        <div class="project" id="Landing_Page">
+                            <img src="https://raw.githubusercontent.com/ogln21/mi-portafolio/refs/heads/main/LandingPage.png"
+                                alt="Icono">
+                            <a href="https://ogln21.github.io/mi-portafolio/Product_Landing_Page/">Landing page</a>
+                        </div>
+                        <div class="project" id="TechnicalDocumentation">
+                            <img src="https://raw.githubusercontent.com/ogln21/mi-portafolio/refs/heads/main/Techdocimg.png"
+                                alt="Icono">
+                            <a
+                                href="https://ogln21.github.io/mi-portafolio/TechnicalDocumentation/">TechnicalDocumentation</a>
+                        </div>
+                        <div class="project" id="Tribute_Page">
+                            <img src="https://raw.githubusercontent.com/ogln21/mi-portafolio/refs/heads/main/Tributepageimg.png"
+                                alt="Icono">
+                            <a href="https://ogln21.github.io/mi-portafolio/Tribute_Page/">Tribute_Page</a>
+                        </div>
 
-    <footer>
-    <p>
-    <a href=""></a>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-    </p>
+        <footer>
+            <p>Copyright (C) 2025 Shard. All rights reserved.
+                <a id="profile-link" target="_blank"
+                    href="https://github.com/ogln21/mi-portafolio?tab=readme-ov-file">Github</a>
+            </p>
         </footer>
-
 </body>
 
 </html>
