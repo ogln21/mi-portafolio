@@ -42,15 +42,16 @@
         <script>
             document.getElementById("registro-form").addEventListener("submit", function(e) {
                 e.preventDefault();
-                sessionStorage.setItem("idAlumno", document.getElementById("idAlumno").value);
-                sessionStorage.setItem("nombre", document.getElementById("nombre").value);
-                sessionStorage.setItem("apellidos", document.getElementById("apellido").value);
-                sessionStorage.setItem("edad", document.getElementById("edad").value);
-                sessionStorage.setItem("email", document.getElementById("email").value);
+                localStorage.setItem("idAlumno", document.getElementById("idAlumno").value);
+                localStorage.setItem("nombre", document.getElementById("nombre").value);
+                localStorage.setItem("apellidos", document.getElementById("apellido").value);
+                localStorage.setItem("edad", document.getElementById("edad").value);
+                localStorage.setItem("email", document.getElementById("email").value);
                 window.location.href = "card.html";
             });
         </script>
 
 </body>
+
 
 </html>
