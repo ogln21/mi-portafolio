@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+// Registro de alumnos y almacenamiento en sessionStorage
+// Redirección a card.html para mostrar los datos almacenados
+// Use JavaScript para manejar el evento de envío del formulario
+// Almacena los datos del formulario en sessionStorage
+// y redirige a la página de la tarjeta del alumno
+//-------------------------------------------------------------------------------//
+//Nombre: Dario Roberto Garcia Guerrero
+//Matrícula: 23001403
+//Fecha: 31/10/2025
+//Nombre del asesor: Dora Alicia Álvarez Medina
+//--------------------------------------------------------------------------------->
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Registrar Alumno</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Registro de Alumnos</h1>
+    <form id="registro-form" method="post">
+        <label for="idAlumno">ID Alumno: <input type="text" id="idAlumno" name="idAlumno" required
+                placeholder="Ingresa tu ID de alumno" /></label>
+        <label for="nombre">Nombre(s): <input type="text" id="nombre" name="nombre" required
+                placeholder="Ingresa tu nombre" /></label>
+        <label for="apellidos">Apellidos: <input type="text" id="apellido" name="apellido" required
+                placeholder="Ingresa tus apellidos" /></label>
+        <label for="edad">Edad: <input type="number" id="edad" name="edad" min="5" max="70" required
+                placeholder="Ingresa tu edad" /></label>
+        <label for="email">Correo Electronico: <input type="email" id="email" name="email" required
+                placeholder="Ingresa tu correo electrónico" />
+        </label>
+        <label for="contrasena">Contraseña: <input type="password" id="contrasena" name="contrasena" required
+                placeholder="Ingresa tu contraseña" /></label>
+        <input type="submit" value="Registrar" id="submit" />
+
+        <script>
+            document.getElementById("registro-form").addEventListener("submit", function(e) {
+                e.preventDefault();
+                sessionStorage.setItem("idAlumno", document.getElementById("idAlumno").value);
+                sessionStorage.setItem("nombre", document.getElementById("nombre").value);
+                sessionStorage.setItem("apellidos", document.getElementById("apellido").value);
+                sessionStorage.setItem("edad", document.getElementById("edad").value);
+                sessionStorage.setItem("email", document.getElementById("email").value);
+                window.location.href = "card.html";
+            });
+        </script>
+
+</body>
+
+</html>

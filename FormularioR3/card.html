@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Card Alumno</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+
+<body>
+    <section id="foto">
+        <img src="https://cdn-icons-png.flaticon.com/512/8093/8093497.png" alt="foto de alumno" class="foto-alumno">
+    </section>
+    <h1>Alumno</h1>
+    <div class="card">
+        <p>ID Alumno: <span id="idAlumno"></span></p>
+        <p>Nombre(s): <span id="nombre"></span></p>
+        <p>Apellidos: <span id="apellidos"></span></p>
+        <p>Edad: <span id="edad"></span></p>
+        <p>Correo Electronico: <span id="email"></span></p>
+
+        <script>
+            document.getElementById("idAlumno").textContent = localStorage.getItem("idAlumno");
+            document.getElementById("nombre").textContent = localStorage.getItem("nombre");
+            document.getElementById("apellidos").textContent = localStorage.getItem("apellidos");
+            document.getElementById("edad").textContent = localStorage.getItem("edad");
+            document.getElementById("email").textContent = localStorage.getItem("email");
+        </script>
+</div>
+</body>
+
+</html>
